@@ -6,7 +6,7 @@
     <string name="activity_main_library">LIBRARY APP</string>
     <string name="activity_main_build">BUILD IT BIGGER</string>
     <string name="activity_main_xyz">XYZ READER</string>
-    <string name="activity_main_own">CAPSTONE: MY OWN APP</string>
+    <string name="activity_main_own">GAZETTE: MY OWN APP</string>
     <string name="action_settings">Settings</string>
     <string name="activiy_main_my_apps">My Nanodegree Apps!</string>
 </resources>

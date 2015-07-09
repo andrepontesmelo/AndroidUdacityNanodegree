@@ -8,59 +8,70 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/activiy_main_my_apps" />
+        android:text="@string/activiy_main_my_apps"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        />
 
     <Button
         android:id="@+id/button_spotify"
-        android:layout_width="wrap_content"
+        android:layout_width="250sp"
         android:layout_height="wrap_content"
+        android:text="@string/activity_main_spotify"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:text="@string/activity_main_spotify" />
+        android:layout_marginTop="40dp"
+        />
 
     <Button
         android:id="@+id/button_scores"
-        android:layout_width="wrap_content"
+        android:layout_width="250sp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_spotify"
         android:layout_centerHorizontal="true"
-        android:text="@string/activity_main_scores" />
+        android:text="@string/activity_main_scores"
+        />
 
     <Button
         android:id="@+id/button_library"
-        android:layout_width="wrap_content"
+        android:layout_width="250sp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_scores"
         android:layout_centerHorizontal="true"
-        android:text="@string/activity_main_library" />
+        android:text="@string/activity_main_library"
+        />
 
     <Button
         android:id="@+id/button_build"
-        android:layout_width="wrap_content"
+        android:layout_width="250sp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_library"
         android:layout_centerHorizontal="true"
-        android:text="@string/activity_main_build" />
+        android:text="@string/activity_main_build"
+        />
 
     <Button
         android:id="@+id/button_xyz"
-        android:layout_width="wrap_content"
+        android:layout_width="250sp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_build"
         android:layout_centerHorizontal="true"
-        android:text="@string/activity_main_xyz" />
+        android:text="@string/activity_main_xyz"
+        />
 
     <Button
         android:id="@+id/button_own"
-        android:layout_width="wrap_content"
+        android:layout_width="250sp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_xyz"
         android:layout_centerHorizontal="true"
-        android:text="@string/activity_main_own" />
+        android:text="@string/activity_main_own"
+        android:background="#ff8383" />
 
 
 </RelativeLayout>
