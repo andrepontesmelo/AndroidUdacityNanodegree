@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">My App Portfolio</string>
 
-    <string name="activity_main_spotify">SPOTIFY STREAMER</string>
+    <string name="activity_main_movies">MOVIE APP</string>
     <string name="activity_main_scores">SCORES APP</string>
     <string name="activity_main_library">LIBRARY APP</string>
     <string name="activity_main_build">BUILD IT BIGGER</string>

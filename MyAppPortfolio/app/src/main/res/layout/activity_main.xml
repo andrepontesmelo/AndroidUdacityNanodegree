@@ -1,78 +1,61 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
 
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/activiy_main_my_apps"
         android:textSize="32sp"
-        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
         />
 
     <Button
-        android:id="@+id/button_spotify"
-        android:layout_width="250sp"
-        android:layout_height="wrap_content"
-        android:text="@string/activity_main_spotify"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:id="@+id/button_movies"
+        android:text="@string/activity_main_movies"
+        style="@style/ActivityMainList"
+        android:onClick="showToast"
         />
 
     <Button
         android:id="@+id/button_scores"
-        android:layout_width="250sp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button_spotify"
-        android:layout_centerHorizontal="true"
         android:text="@string/activity_main_scores"
+        style="@style/ActivityMainList"
+        android:onClick="showToast"
         />
 
     <Button
         android:id="@+id/button_library"
-        android:layout_width="250sp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button_scores"
-        android:layout_centerHorizontal="true"
         android:text="@string/activity_main_library"
+        style="@style/ActivityMainList"
+        android:onClick="showToast"
         />
 
     <Button
         android:id="@+id/button_build"
-        android:layout_width="250sp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button_library"
-        android:layout_centerHorizontal="true"
         android:text="@string/activity_main_build"
+        style="@style/ActivityMainList"
+        android:onClick="showToast"
         />
 
     <Button
         android:id="@+id/button_xyz"
-        android:layout_width="250sp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button_build"
-        android:layout_centerHorizontal="true"
         android:text="@string/activity_main_xyz"
+        style="@style/ActivityMainList"
+        android:onClick="showToast"
         />
 
     <Button
         android:id="@+id/button_own"
-        android:layout_width="250sp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button_xyz"
-        android:layout_centerHorizontal="true"
         android:text="@string/activity_main_own"
-        android:background="#ff8383" />
+        android:background="#ff8383"
+        android:onClick="showToast"
+        style="@style/ActivityMainList"/>
 
 
-</RelativeLayout>
+</LinearLayout>
 
